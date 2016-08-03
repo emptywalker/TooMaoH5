@@ -1,0 +1,86 @@
+
+
+
+#logo{
+    display: block;
+    margin-top: 30px;
+    align-content: center;
+    height: 150px;
+}
+
+#logo img{
+    margin: 0 auto;
+    display: block;
+    width: 100px;
+    height: 100px;
+}
+/*用户名和密码*/
+.userName{
+    align-content: center;
+    vertical-align: middle;
+    height: 40px;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 20px;
+    
+    border-bottom-color: dimgray;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+
+input {
+    display: inline-block;
+    margin-left: 12px;
+    width: 75%;
+    height: 26px;
+    border-style: none;
+    vertical-align: middle;
+}
+
+input:focus{
+    border-style: none;
+    background-color: aqua;
+    outline: none;
+}
+
+.imageInptu{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+}
+
+#eyeImg{
+    margin-left: 0px;
+    width: 20px;
+    height: 20px;
+}
+
+/*登录按钮*/
+#buttonDiv{
+    height: 80px;
+    text-align: center;
+    /*background-color: beige;*/
+    margin-top: 20px;
+}
+
+.loginBtn{
+    display:block;
+    width: 60%;
+    height: 30px;
+    background-color: firebrick;
+    margin: auto;
+    border-radius: 8px;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 20px;
+    margin-bottom: 30px;
+}
+.loginBtn:focus{
+    outline-style: none;
+}
+
+
+.forgotBtn{
+    margin-left: 30%;
+}
