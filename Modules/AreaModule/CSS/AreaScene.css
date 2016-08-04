@@ -37,13 +37,15 @@ ul{
     padding-top: 8px;
     border-top:0.5px solid #000;
     background-color: white;
+    font-size:0;
+    word-spacing:-1px;
 }
 
 .module{
     display: inline-block;
     margin: 0;
     padding: 0;
-    width: 19%;
+    width: 20%;
     text-align: center;
     /*background-color: beige;*/
 }
@@ -62,4 +64,5 @@ ul{
     /*background-color: burlywood;*/
     margin-bottom: 5px;
     margin-top: 5px;
+    font-size:15px;
 }
