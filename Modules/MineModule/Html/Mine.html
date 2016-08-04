@@ -4,24 +4,17 @@
     <meta charset="UTF-8">
     <meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
 
-    <link rel="stylesheet" href="../../../Util/CSS/NavigationBar.css">
+    <title>我的</title>
+    <link rel="stylesheet" href="../CSS/Mine.css">
     <link rel="stylesheet" href="../../../Util/CSS/Common.css">
-    <link rel="stylesheet" href="../CSS/AreaScene.css">
 
-    <script src="https://cdn.bootcss.com/jquery/3.1.0/jquery.min.js" type="text/javascript"></script>
-    <script type="text/javascript" src="../JS/AreaScene.js"></script>
     <script type="text/javascript" src="../../../Util/JS/NetworkUtil.js"></script>
-
-    <title>区域馆</title>
+    <script type="text/javascript" src="../../../Util/JS/LifeCycleUtil.js"></script>
+    <script src="../JS/Mine.js"></script>
 
 </head>
 <body>
-    <div>
-        <ul>
-
-        </ul>
-    </div>
-
+    <div class="welcome">我的还是我的</div>
     <!--tabBar-->
     <div class="tabBar">
         <div class="module" id="square">
@@ -35,8 +28,8 @@
         </div>
 
         <div class="module" id="area">
-            <img src="../../../Images/TabBarImages/area_selected.png" title="区域馆">
-        <label  style="color: #B41800">区域馆</label>
+            <img src="../../../Images/TabBarImages/area.png" title="区域馆">
+            <label>区域馆</label>
         </div>
 
         <div class="module" id="shopping-cart">
@@ -45,10 +38,9 @@
         </div>
 
         <div class="module" id="mine">
-            <img src="../../../Images/TabBarImages/mine.png" title="我的">
-            <label>我的</label>
+            <img src="../../../Images/TabBarImages/mine_selected.png" title="我的">
+            <label style="color: #B41800">我的</label>
         </div>
-
     </div>
 </body>
 </html>

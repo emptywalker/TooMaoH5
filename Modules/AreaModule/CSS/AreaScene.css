@@ -30,39 +30,3 @@ ul{
     /*background-color: red;*/
 }
 
-.tabBar{
-    position:fixed; bottom: 0px; left: 0px;
-    display: inline-block;
-    width: 100%;
-    padding-top: 8px;
-    border-top:0.5px solid #000;
-    background-color: white;
-    font-size:0;
-    word-spacing:-1px;
-}
-
-.module{
-    display: inline-block;
-    margin: 0;
-    padding: 0;
-    width: 20%;
-    text-align: center;
-    /*background-color: beige;*/
-}
-
-.module img{
-    display: inline-block;
-    text-align: center;
-    width: 25px;
-    height: 25px;
-    /*background-color: aqua;*/
-}
-
-.module label{
-    display: block;
-    text-align: center;
-    /*background-color: burlywood;*/
-    margin-bottom: 5px;
-    margin-top: 5px;
-    font-size:15px;
-}
