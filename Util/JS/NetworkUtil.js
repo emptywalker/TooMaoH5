@@ -30,13 +30,15 @@ function getRequest(type, path, dataBody, completeOperation, errorOperation) {
 
 
 
-
+//解析URL的参数
 function getQueryString(name) {
     var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i");
     var r = window.location.search.substr(1).match(reg);
     if (r != null) return unescape(r[2]); return null;
 }
 
+
+//发送网络请求
 function ajax(options) {
     options = options || {};
     options.type = (options.type || "GET").toUpperCase();

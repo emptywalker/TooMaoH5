@@ -6,3 +6,44 @@
     line-height: 600px;
     text-align: center;
 }
+
+/*adv*/
+#wrap{
+    position: relative;
+}
+#advUL{
+    /*position: absolute;*/
+    /*display: inline-block;*/
+}
+#advUL img{
+    display: block;
+    /*width: 100%;*/
+    float: left;
+    margin: 0;
+}
+
+
+
+#advSpan{
+    position: fixed;
+    float: left;
+    top: 175px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+}
+
+#advSpan span{
+    display: inline-block;
+    margin-left: 3px;
+    width: 6px;
+    height: 6px;
+    background: #333;
+    border-radius:50%;
+    /*cursor: pointer*/
+}
+
+#advSpan .pointClass{
+    background-color: ghostwhite;
+}

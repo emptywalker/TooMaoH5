@@ -7,7 +7,7 @@ ready(function () {
     var path = URLBase + '/1.2/regional/' + getQueryString("id") + '/detail';
     ajax({ url: path,
         success: function (responseText, response) {
-            // 此处放成功后执行的代码
+          4  // 此处放成功后执行的代码
             var original = JSON.parse(responseText);
             document.getElementById('top-image').src = original.regional.topImage;
             document.getElementById('title').textContent = original.regional.title;
