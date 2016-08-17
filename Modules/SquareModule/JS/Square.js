@@ -4,6 +4,7 @@
 ready(function () {
 
     var path = URLBase + '/1.1/home';
+    var screenWidth = window.screen.availWidth;
     ajax({
         url:path,
         success: function (responseText) {
@@ -17,7 +18,7 @@ ready(function () {
             var spanPoint = '';
             for (var i = 0; i < advArray.length; i ++ ){
                 var adv = advArray[i];
-                imageHtml += "<img style='width: "+ document.body.clientWidth+"px' src='" + adv.image + "'>"
+                imageHtml += "<img style='width: "+ screenWidth+"px' src='" + adv.image + "'>"
 
                 let potinClass = '';
                 if (i == 0){
@@ -28,7 +29,7 @@ ready(function () {
                 }
             }
             advULl.innerHTML = imageHtml;
-            advULl.style.width = advArray.length * document.body.clientWidth + 'px';
+            advULl.style.width = advArray.length * screenWidth + 'px';
             pointUL.innerHTML = spanPoint;
         },
         fail:function (status) {

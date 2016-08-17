@@ -8,7 +8,9 @@ a, address, b, big, blockquote, body, center, cite, code, dd, del, div, dl, dt, 
 
 
 .tabBar{
-    position:fixed; bottom: 0px; left: 0px;
+    position:fixed;
+    bottom: 0px;
+    left: 0px;
     display: inline-block;
     width: 100%;
     padding-top: 8px;
